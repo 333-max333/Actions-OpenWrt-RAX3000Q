@@ -22,8 +22,8 @@ on:
     - cron: 0 8 * * 2
 
 env:
-  REPO_URL: https://github.com/itpleb/immortalwrt-ipq50xx
-  REPO_BRANCH: openwrt-21.02
+  REPO_URL: https://github.com/LiBwrt/ipq50xx
+  REPO_BRANCH: ipq50xx-devel
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
   DIY_P1_SH: diy-part1.sh
