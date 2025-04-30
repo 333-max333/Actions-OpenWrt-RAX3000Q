@@ -22,8 +22,8 @@ on:
     - cron: 0 8 * * 2
 
 env:
-  REPO_URL: https://github.com/LiBwrt/ipq50xx
-  REPO_BRANCH: ipq50xx-devel
+  REPO_URL: https://github.com/LiBwrt/openwrt-6.x
+  REPO_BRANCH: ipq50xx
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
   DIY_P1_SH: diy-part1.sh
