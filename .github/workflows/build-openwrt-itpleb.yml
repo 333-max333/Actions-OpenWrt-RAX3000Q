@@ -1,3 +1,4 @@
+#
 # Copyright (c) 2019-2020 P3TERX <https://p3terx.com>
 #
 # This is free software, licensed under the MIT License.
@@ -7,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build OpenWrt itpleb
+name: Build OpenWrt
 
 on:
   repository_dispatch:
@@ -22,8 +23,8 @@ on:
     - cron: 0 8 * * 2
 
 env:
-  REPO_URL: https://github.com/LiBwrt/openwrt-6.x
-  REPO_BRANCH: ipq50xx
+  REPO_URL: https://github.com/itpleb/immortalwrt-ipq50xx
+  REPO_BRANCH: openwrt-21.02
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
   DIY_P1_SH: diy-part1.sh
